@@ -1,0 +1,41 @@
+#include "affiche.h"
+
+int main(){
+
+   int nb=0;
+   int i=0;
+
+   char nom[100] = {};
+
+   long *sec=NULL;
+   float *lattitude=NULL;
+   float *longitude=NULL;
+
+   scanf("%d", &nb);
+
+   /***********************/
+   /* Allocation tableaux */
+   /***********************/
+   sec = calloc(nb, sizeof (long));
+   if (sec == NULL){
+      printf("Probleme d'allocation tableau sec\n");
+   }
+   lattitude = calloc(nb, sizeof (float));
+   if (lattitude == NULL){
+      printf("Probleme d'allocation tableau lattitude\n");
+   }
+   longitude = calloc(nb, sizeof (float));
+   if (longitude == NULL){
+      printf("Probleme d'allocation tableau sec\n");
+   }
+
+   /***********************/
+   /*Remplissage tableaux */
+   /***********************/
+   for (i=0; i<nb; i++){
+      scanf("%s", nom);
+      affichage(nom, &longitude[i], &lattitude[i], &sec[i]);
+   }
+
+   return 0;
+}
