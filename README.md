@@ -1,6 +1,6 @@
 # M1_Project
 
-This is my 2nd first year master project on the measurement of the rotational velocity of the Sun from images taken at the Observatory of Meudon. The project was written in C from templates given at the beginning. Only the data analysis and plotting part is writtent in Python.
+This is my 2nd first year master project on the measurement of the rotational velocity of the Sun from images taken at the Observatory of Meudon. The project was written in C from templates given at the beginning. Only the data analysis and plotting part is written in Python.
 
 Folder | Content
 :---: | :---:
