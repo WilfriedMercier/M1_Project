@@ -4,7 +4,7 @@ This is my 2nd first year master project on the measurement of the rotational ve
 
 Folder | Content
 :---: | :---
-doc | information on the subject
-fichiers_projet_a_rendre | files asked at the end of the project
-projet | main directory containing data as well as the different modules
-rapport | report
+doc | Information on the subject
+fichiers_projet_a_rendre | Files asked at the end of the project
+projet | Main directory containing data as well as the different modules
+rapport | Report
